@@ -239,6 +239,4 @@ Project permissions required
 Project users must have the 'View Development Tools' permission to see
 commit information in the Development panel in a Jira Software issue. A
 Jira Software admin can edit a project's permission schema to grant this
-permission. See [Managing project
-permissions](https://confluence.atlassian.com/adminjiraserver/managing-project-permissions-938847145.html).
-
+permission.
