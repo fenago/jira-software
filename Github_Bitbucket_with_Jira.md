@@ -114,20 +114,26 @@ integration.
 
 #### Generate a new token in **GitHub** 
 
+##### Default account:
+
+ - Username: **fenago-jira**
+ - Pasword:  **fenago1234**
+
 Log in as a user with administrative rights on the account:
 
-1.  Choose **Edit Your Profile**. 
-2.  Select **Applications**. 
+https://github.com/settings/applications/new
+
+1.  Go to *8Settings**
+2.  Select **Developer settings** > **OAuth Apps**.
 3.  Choose **Register new application**. 
 4.  Enter `JIRA DVCS` for the **Application Name**. 
-5.  Enter the Jira Software URL for both the **URL** and **Callback
-    URL** fields. Press **Register Application**.
+5.  Enter the Jira Software URL for both the **URL** and **Callback URL** fields. Press **Register Application**.
 
     Make sure you enter the **Jira Software Base URL** (for example,
-    [http://jirjs<update-me>.eastus.azurecontainer.io/](http://jirjs<update-me>.eastus.azurecontainer.io/)) for
+    [http://jirjs`<update-me>`.eastus.azurecontainer.io](http://jirjs`<update-me>`.eastus.azurecontainer.io)) for
     *both* the **Homepage URL** and **Authorization callback URL**
     fields. *Don't* use the dashboard URL
-    ([http://jirjs<update-me>.eastus.azurecontainer.io/secure/Dashboard.jspa](http://jirjs<update-me>.eastus.azurecontainer.io/secure/Dashboard.jspa)). 
+    ([http://jirjs`<update-me>`.eastus.azurecontainer.iosecure/Dashboard.jspa](http://jirjs`<update-me>`.eastus.azurecontainer.iosecure/Dashboard.jspa)). 
 
 6.  Keep your browser open to your DVCS and go to the next step.
 
@@ -143,8 +149,8 @@ Software:
 4.  From the **Integrations **section on the left, choose** DVCS
     accounts**.
 5.  Click **Link Bitbucket Cloud or GitHub account**.
-6.  Choose **Bitbucket Cloud** as your **Host **value.
-7.  Enter a **Team or User Account **name.
+6.  Choose **Bitbucket Cloud** as your **Host** value.
+7.  Enter a **Team or User Account** name.
 
     For example, if you want to link the account that owns
     the `https://bitbucket.org/fenago-jira/markdowndemo` repository,
@@ -152,9 +158,9 @@ Software:
     Linking the `fenago-jira` account links all of that account's
     repositories, not only the `markdowndemo` repository.
 
-8.  Copy the OAuth** Key** and** Secret** values from your DVCS site
-    into the dialog.    GitHub's **Client ID** is equivalent to the OAuth** Key**. And
-    the **Client Secret** is equivalent to the OAuth** Secret**. 
+8.  Copy the OAuth **Key** and **Secret** values from your DVCS site
+    into the dialog.    GitHub's **Client ID** is equivalent to the OAuth **Key**. And
+    the **Client Secret** is equivalent to the OAuth **Secret**. 
 9.  Leave the default auto link and smart commits (recommended) as is or
     change them.
      ![Add new account page with sample
