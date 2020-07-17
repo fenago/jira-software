@@ -74,13 +74,10 @@ the team account. 
 Generate the new OAuth token in either Bitbucket, GitHub, or GitHub
 Enterprise, depending on which DVCS hosts your repositories. 
 
-#### Generate a new token in Bitbucket 
+### Generate a new token in Bitbucket 
 
 
-Step 1. Sign up for Bitbucket and create a Bitbucket team 
----------------------------------------------------------
-
-### Create a Bitbucket account 
+##### Create a Bitbucket account 
 
 If you already have an account, you can skip this step.
 When you create a Bitbucket individual account you must supply the following fields:
