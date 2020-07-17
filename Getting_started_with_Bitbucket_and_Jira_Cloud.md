@@ -86,32 +86,7 @@ section.
 To better understand how teams work let’s first take a look at how they
 fit into the Bitbucket environment.
 
-+--------------------------------------+--------------------------------------+
-| **Teams are comprised of      **     | **Which are**                        |
-+--------------------------------------+--------------------------------------+
-| Users                                | Who develops the code and manages    |
-|                                      | the team.                            |
-|                                      |                                      |
-|                                      | Each user has an individual          |
-|                                      | Bitbucket account which can be added |
-|                                      | to (or removed from) any group or    |
-|                                      | team within the Bitbucket universe.  |
-+--------------------------------------+--------------------------------------+
-| Groups                               | What users can do and where they can |
-|                                      | go.                                  |
-|                                      |                                      |
-|                                      | Groups provide permissions           |
-|                                      | (administrator, read/write, read     |
-|                                      | only) to groups of individual users, |
-|                                      | and are assigned to repositories for |
-|                                      | the team.                            |
-+--------------------------------------+--------------------------------------+
-| Repositories                         | Where the code lives.                |
-|                                      |                                      |
-|                                      | The repository is where you store,   |
-|                                      | access, create, develop, modify, and |
-|                                      | share the code for a project         |
-+--------------------------------------+--------------------------------------+
+![](https://raw.githubusercontent.com/fenago/jira-software/master/integration/2.png)
 
 Create a team 
 -------------
@@ -168,9 +143,9 @@ repositories with names that result in the same URL.
 1.  Click **+** in the global sidebar and
     select **Repository** under **Create a new**.
 2.  Choose a repository **Workspace**. 
-3.  Select a project from the **Project **dropdown menu. If a project
-    does not exist, click on **Create new project **at the bottom of
-    the **Project **dropdown menu to create a new project in which to
+3.  Select a project from the **Project** dropdown menu. If a project
+    does not exist, click on **Create new project** at the bottom of
+    the **Project** dropdown menu to create a new project in which to
     work and collaborate with others on your repository.
 4.  Enter a **Repository name** that will describe your repository and
     appear in its URL.
@@ -280,19 +255,18 @@ Keep your browser open to Bitbucket  and go onto the next step.
 To complete the link between your DVCS and Jira:
 
 1.  Log in to Jira Cloud as a user with administrative rights.
-2.  From the Jira dashboard click the settings icon
-    
-![](https://raw.githubusercontent.com/fenago/jira-software/master/integration/settings.png).
+2.  From the Jira dashboard click the settings icon ![](https://raw.githubusercontent.com/fenago/jira-software/master/integration/settings.png)
+
 3.  Choose **Applications** then **DVCS accounts** (under 'Integrations'
     in the left-hand panel).
-4.  Click **Link a Bitbucket Cloud or GitHub****account**.
-5.  Choose **Bitbucket Cloud** as your **Host **value.
+4.  Click **Link a Bitbucket Cloud or GitHub account**.
+5.  Choose **Bitbucket Cloud** as your **Host** value.
 6.  Enter a **Team or User Account**.
 
     For example, if you want to link the account that owns
-    the `https://bitbucket.org/tutorials/markdowndemo` repository then you
-    would enter `tutorials` for the **Team or User Account** value.
-     Linking the `tutorials` account links all of that account's
+    the `https://bitbucket.org/fenago-jira/markdowndemo` repository then you
+    would enter `fenago-jira` for the **Team or User Account** value.
+     Linking the `fenago-jira` account links all of that account's
     repositories, not only the `markdowndemo` repository.
 
 7.  Copy the **OAuth Key** and **OAuth Secret** from your Bitbucket
@@ -306,7 +280,7 @@ To complete the link between your DVCS and Jira:
 
 ![Confirm access to your account pop-up.](https://raw.githubusercontent.com/fenago/jira-software/master/integration/grantaccess.png "Confirm access to your account pop-up.")
 
-11. Upon success, the **DVCS**** accounts** page displays with your
+11. Upon success, the **DVCS accounts** page displays with your
     account. 
 
 The account you just connected and all of its repositories appear in
