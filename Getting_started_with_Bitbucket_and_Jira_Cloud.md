@@ -75,7 +75,7 @@ To sign up for a Bitbucket account:
 3.  Click **Sign up**.
 
 When you are done signing in, Bitbucket places you in
-the **Dashboard **of your account. Take a second to look around the user
+the **Dashboard** of your account. Take a second to look around the user
 interface. Across the side of each Bitbucket page is a series of options
 that let you navigate around Bitbucket. On the top bar is a link
 for **Teams**. **Select Teams** > **Create team** and move to the next

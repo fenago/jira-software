@@ -36,7 +36,7 @@ equivalent of telling the DVCS connector:
 
 *As a Bitbucket account holder, I know this service asking for a
 connection with a key and secret. You are free to use them to get to
-this account data. *
+this account data.*
 
 The *authorizing account* is not necessarily the account that created
 the key and secret. The authorizing account *should* have administrative
@@ -78,10 +78,13 @@ Enterprise, depending on which DVCS hosts your repositories. 
 
 Log in as a user with administrative rights on the account.
 
-1.  Choose ***avatar* > Bitbucket settings**. 
-2.  (Optional) If connecting a team, choose the team from the **Manage**
-    dropdown.
-3.  Click **OAuth** under 'Access Management'.
+**Create a consumer**
+
+OAuth needs a key and secret, together these are know as an OAuth consumer. You can create a consumer on any existing workspace. To create a consumer, do the following:
+
+1. From your profile avatar in the bottom left, click on the workspace in the Recent workspaces list or click **All workspaces** to open an entire list from which to choose.
+2. Click **Settings** on the left sidebar to open the **Workspace** settings.
+3. Click **OAuth consumers** under Apps and features on the left navigation.
 4.  Click **Add consumer**.
 5.  Enter the following details:
 
