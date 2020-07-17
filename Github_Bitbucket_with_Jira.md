@@ -111,6 +111,8 @@ OAuth needs a key and secret, together these are know as an OAuth consumer. You 
 
 ![](https://raw.githubusercontent.com/fenago/jira-software/master/integration/5.png)
 
+![](https://raw.githubusercontent.com/fenago/jira-software/master/integration/6.png)
+
 
 6.  Select the following permissions: 
 
