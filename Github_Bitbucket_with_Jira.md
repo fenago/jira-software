@@ -112,18 +112,18 @@ integration.
 
 ​9. Keep your browser open to your DVCS and go to the next step.
 
-#### Generate a new token in **GitHub** 
+### Generate a new token in **GitHub** 
 
-##### Default account:
+##### Default github account:
 
  - Username: **fenago-jira**
- - Pasword:  **fenago1234**
+ - Password:  **fenago1234**
 
 Log in as a user with administrative rights on the account:
 
 https://github.com/settings/applications/new
 
-1.  Go to *8Settings**
+1.  Go to **Settings**
 2.  Select **Developer settings** > **OAuth Apps**.
 3.  Choose **Register new application**. 
 4.  Enter `JIRA DVCS` for the **Application Name**. 
@@ -132,7 +132,9 @@ https://github.com/settings/applications/new
     Make sure you enter the **Jira Software Base URL** (for example,
     [http://jirjs`<update-me>`.eastus.azurecontainer.io](http://jirjs`<update-me>`.eastus.azurecontainer.io)) for
     *both* the **Homepage URL** and **Authorization callback URL**
-    fields. *Don't* use the dashboard URL
+    fields. 
+    
+    *Don't* use the dashboard URL
     ([http://jirjs`<update-me>`.eastus.azurecontainer.iosecure/Dashboard.jspa](http://jirjs`<update-me>`.eastus.azurecontainer.iosecure/Dashboard.jspa)). 
 
 6.  Keep your browser open to your DVCS and go to the next step.
@@ -195,7 +197,7 @@ The DVCS Connector does two things:
 
 -   It adds an OAuth consumer to the linked account's list of integrated
     applications. To view the listing in Bitbucket, click your profile
-    image and select **Bitbucket settings**. Click** OAuth **in the
+    image and select **Bitbucket settings**. Click **OAuth** in the
     'Access Management' section and you'll see a listing similar to the
     following:
      ![OAuth Integrated applications
