@@ -76,6 +76,30 @@ Enterprise, depending on which DVCS hosts your repositories. 
 
 #### Generate a new token in Bitbucket 
 
+
+Step 1. Sign up for Bitbucket and create a Bitbucket team 
+---------------------------------------------------------
+
+### Create a Bitbucket account 
+
+If you already have an account, you can skip this step.
+When you create a Bitbucket individual account you must supply the following fields:
+
+![](https://raw.githubusercontent.com/fenago/jira-software/master/integration/1.png)
+
+
+To sign up for a Bitbucket account:
+
+1.  Open [https://bitbucket.org/account/signup/](https://bitbucket.org/account/signup/) in
+    your browser.
+2.  Complete the fields in the sign up form.
+3.  Click **Sign up**.
+
+When you are done signing in, Bitbucket places you in
+the **Dashboard** of your account. Take a second to look around the user
+interface. Across the side of each Bitbucket page is a series of options
+that let you navigate around Bitbucket.
+
 Log in as a user with administrative rights on the account.
 
 **Create a consumer**
