@@ -1,4 +1,4 @@
-Update port to 90: /opt/atlassian/jira/conf/server.xml
+Update port to 0: /opt/atlassian/jira/conf/server.xml
 
 
 
