@@ -13,6 +13,7 @@ Alana Grant
 
 agrant@fenago.com
 
+Username: agrant
 Charlie!
 
 
@@ -22,7 +23,8 @@ Ryan Lee
 
 rlee@fenago.com
 
-Charlie!
+Username: rlee
+Passowrd: Charlie!
 
 
 ********************************
